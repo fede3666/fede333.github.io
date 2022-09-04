@@ -217,7 +217,78 @@
         padding: 0, 9em;
     }
     /*fin del index*/
+/*productos*/
+.car__ventas .contiene {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat (4, 200px);
+    justify-content: space-around;
+}
+.produc__graf{
+    font-size: 3rem;
+    color: coral;
+}
+.car__ventas .contiene2 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat (4, 200px);
+    justify-content: space-around;
+}
 
+.contiene img {
+    height: 12rem;
+    width: 16rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+}
+.contiene2 img {
+   height: 12rem;
+   width: 16rem;
+   font-size: 1rem;
+   border-radius: 3rem;
+}
+
+.card {
+    
+    height: 18rem;
+    width: 16rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 7px 5px rgb(156, 154, 154);
+    border-radius: 3rem;
+    transition: all 0.8s linear;
+}
+
+.card:hover {
+    transform: scale(1.2);
+
+}
+
+.card-venta {
+    color: black;
+    font-size: 1rem;
+}
+
+ol .lik {
+    list-style: none;
+    font-size: 1rem;
+    padding-top: 2px;
+}
+
+.car__ventas .butom:hover {
+    font-size: 1.2rem;
+    background-color: rgb(207, 77, 77);
+    width: 5rem;
+    border: solid 1px rgb(189, 26, 26);
+    box-shadow: 1px 2px 7px 5px rgb(156, 154, 154);
+    transform: translateZ(-3px);
+    transition: all 0.7s ease;
+
+}
+/*fin productos*/
     /*comienzo del about*/
     /*primera section*/
     .historia {
@@ -369,4 +440,4 @@ button:focus {
         font-size: 1em;
         padding: 0.9em;
         text-align: center;
-    }.
+    }
