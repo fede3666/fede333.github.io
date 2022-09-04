@@ -162,8 +162,8 @@
 
     .box {
         padding-left: 6rem;
-        width: 15em;
-        height: 12em;
+        width: 10em;
+        height: 10em;
     }
 
     article {
@@ -361,4 +361,4 @@ button:focus {
         font-size: 1em;
         padding: 0.9em;
         text-align: center;
-    }asdas
+    }
