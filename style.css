@@ -1,0 +1,364 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-transform: capitalize;
+
+
+    }
+
+    body {
+        background-attachment: cover;
+        background: radial-gradient(white, black);
+        overflow-x: hidden;
+    }
+
+    .encabezado {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 5.5rem;
+        background-color: rgb(201, 200, 200);
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+
+    .logo img {
+
+        border-radius: 100%;
+        height: 4rem;
+    }
+
+    .navega {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navega ul {
+        list-style: none;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        margin-right: .5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+
+    }
+
+    h2 {
+        color: white;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .recipiente {
+        margin: auto;
+        background-color: white;
+        width: 37.2em;
+        height: 25em;
+        padding: .2em;
+    }
+
+    span {
+        color: red;
+    }
+
+    ul,
+    li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    ul.slider {
+        position: relative;
+        width: 37em;
+        height: 21em;
+    }
+
+    ul.slider li {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background: #fff;
+    }
+
+    ul.slider li img {
+        width: 37em;
+        height: 21em;
+        object-fit: cover;
+    }
+
+    ul.slider li:first-child {
+        opacity: 2;
+    }
+
+    ul.slider li:target {
+        opacity: 1;
+    }
+
+    .direction {
+        text-align: center;
+        margin: 2em;
+    }
+
+    .direction li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .direction li a {
+        display: inline-block;
+        color: rgb(255, 2, 2);
+        text-decoration: none;
+        background-color: rgb(255, 0, 0);
+        padding: 1em;
+        width: 1em;
+        height: 1em;
+        font-size: .5em;
+        border-radius: 110%;
+    }
+
+    .video1,
+    .video2,
+    .video3,
+    iframe {
+        width: 25rem;
+        height: 20rem;
+    }
+
+    iframe {
+        padding: 1.9rem;
+    }
+
+    h3 {
+        padding: .9em;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+    }
+
+    h4 {
+        padding: 0.9em;
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .box {
+        padding-left: 6rem;
+        width: 15em;
+        height: 12em;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .mayor {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    table {
+        color: white;
+        font-size: 1em;
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin-left: 1em;
+    }
+
+    thead {
+
+        background: rgba(34, 34, 216, 0.5)
+    }
+
+    th {
+        padding: 1em 2.1em;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    td {
+        padding: 1em;
+        border-bottom: solid 1px rgba(211, 35, 35, 0.4);
+    }
+
+    tbody tr {
+        cursor: pointer;
+    }
+
+    tbody tr:hover {
+        background-color: rgba(150, 21, 21, 0.7);
+
+    }
+
+    .motivacion {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        padding: 0, 9em;
+    }
+    /*fin del index*/
+
+    /*comienzo del about*/
+    /*primera section*/
+    .historia {
+        font-size: 1.5rem;
+        padding: .5em;
+        color: rgb(254, 253, 253);
+        text-align: center;
+    }
+
+    .consolidacion {
+        color: rgb(253, 124, 124);
+    }
+
+    .inicia {
+        color: rgb(133, 52, 52);
+
+        font-size: 1.2rem;
+        text-align: center;
+        padding-bottom: 0.5em;
+    }
+
+    .pictur {
+        width: 23rem;
+        height: 20rem;
+        padding-bottom: 0.5em;
+        padding-left: 1rem;
+        transition: all 0.5s linear;
+    }
+
+    .pictur:hover {
+        transform: scale(0.9);
+        border-radius: 100%;
+    }
+
+    /*segunda section*/
+    .presentacion {
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .integrantes {
+        width: 90%;
+        padding-left: 0.2rem;
+        transition: all 0.9s linear;
+        padding-bottom: 1rem;
+    }
+
+    .integrantes:hover {
+        transform: translate(2rem, -10%);
+
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: blue;
+    }
+
+    h6 {
+        text-align: center;
+        color: rgb(52, 52, 252);
+        font-size: 1.3rem;
+    }
+
+    .ejecutivo {
+        position: static;
+        height: 15rem;
+
+    }
+
+    p {
+        font-size: 0.8rem;
+        color: red;
+        text-align: center;
+        padding-top: 0.4rem;
+    }
+
+    .formacion {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    /*fin del about*/
+    /*inicio login*/
+    .title{
+        color: white;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    }
+    #inicio, .registro{
+        background: linear-gradient(blue, red);
+        margin-top: 2rem;
+        border: solid 0.2rem red;
+        padding-left: 1rem;
+
+    }
+ .container{
+    padding-left:50rem;
+ }
+    .inicie{
+        width: 9rem;
+        height: 9rem;
+    }
+    .container button {
+        height: 1.2rem;
+        width: 40%;
+        background: rgb(27, 15, 247);
+        font-size: 0.6rem;
+        color: rgb(255, 255, 255);
+
+    }
+    .container button:hover,
+    button:focus {
+        background: #02023c;
+        color: white;
+        font-size: 0.9rem;
+    }
+    .registro button {
+        height: 1.2rem;
+        width: 40%;
+        background: rgb(27, 15, 247);
+        font-size: 0.6rem;
+        color: rgb(255, 255, 255);
+    }
+    .registro button:hover,
+button:focus {
+    background: #02023c;
+    color: white;
+    font-size: 0.9rem;
+}
+    /*fin login*/
+
+    .end {
+        color: white;
+        font-size: 1em;
+        padding: 0.9em;
+        text-align: center;
+    }asdas
