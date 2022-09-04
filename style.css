@@ -313,6 +313,10 @@
         padding-top: 1rem;
         font-size: 1.4rem;
     }
+    .clientes h4{
+        color: rgb(21, 20, 20);
+        font-size: 1.9rem;
+    }
     #inicio, .registro{
         background: linear-gradient(blue, red);
         margin-top: 2rem;
@@ -353,6 +357,10 @@ button:focus {
     background: #02023c;
     color: white;
     font-size: 0.9rem;
+}
+.retrato{
+    height: 13rem;
+    padding-left: 2rem;
 }
     /*fin login*/
 
