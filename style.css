@@ -55,7 +55,7 @@
 
     }
 
-    const carousel = new bootstrap.Carousel('#myCarousel')
+
     h2 {
         color: white;
         padding-top: .5em;
