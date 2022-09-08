@@ -319,11 +319,12 @@
 
     .card {
 
-        height: 18rem;
+        height: 19rem;
         width: 16rem;
         color: black;
         display: flex;
         flex-direction: column;
+        align-items: center;
         box-shadow: 1px 2px 7px 5px rgb(156, 154, 154);
         border-radius: 3rem;
         transition: all 0.8s linear;
@@ -355,6 +356,18 @@
         transition: all 0.7s ease;
 
     }
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .gps .map{
+        border-radius: 4rem;
+        opacity: 0.6;
+    }
+    
 
     /*fin productos*/
     /*inicio de contacto*/
@@ -618,10 +631,9 @@
       }
 
     /*fin login*/
-
     .end {
         color: white;
         font-size: 1em;
-        padding: 0.9em;
+      
         text-align: center;
     }
